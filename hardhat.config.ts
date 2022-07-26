@@ -6,7 +6,7 @@ import "@nomiclabs/hardhat-ethers";
 
 const networks: { [key: string]: any } = {
   rinkeby: {
-    url: process.env.ALCHEMY_RINKEBY_URL,
+    url: process.env.ALCHEMY_KINKEBY_URL,
     accounts: [process.env.ACCOUNT_PRIVATE_KEY],
   },
 };
